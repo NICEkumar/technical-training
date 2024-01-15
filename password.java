@@ -18,6 +18,7 @@ class password{
             System.out.println("Valid");
         else
             System.out.println("Invalid");
+        sc.close();
     }
     static boolean check(String password){
         boolean noSpace = true, hasUpper = false, hasLower = false, hasDigit = false, hasSpecial = false;

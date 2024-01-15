@@ -15,6 +15,7 @@ public class luckySum {
         b = sc.nextInt();
         c = sc.nextInt();
         System.out.println("Sum:"+lucky(a, b, c));
+        sc.close();
     }
     public static int lucky(int a, int b, int c){
         int sum = 0;
