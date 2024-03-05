@@ -3,17 +3,13 @@
 // input s="babad", output bab or aba
 // input s="cbbd", output "bb"
 
-import java.util.Scanner;
 
 public class longPallin
 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the String: ");
-        String s = in.nextLine();
-        String res= longest(s);
+        String res= longest(args[0]);
         System.out.println(res);
-        in.close();
+        
     }
     public static String longest(String s)
     {
